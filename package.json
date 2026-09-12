@@ -1,0 +1,23 @@
+{
+  "name": "wet-salamander-nft",
+  "version": "1.0.0",
+  "description": "WET Salamander ERC20 Token + WERSAL NFT Collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": ["ethereum", "nft", "erc721", "erc20", "solidity", "wet-salamander"],
+  "author": "xxxstr8up8up-coder",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
